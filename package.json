@@ -1,0 +1,18 @@
+{
+  "name": "amne-question",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "performance": "node --allow-natives-syntax ./node_modules/mocha/bin/_mocha --reporter mocha-performance ./test/**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "mocha-performance": "^0.1.1"
+  }
+}
